@@ -29,3 +29,5 @@ abc.length
 
 abc.length=20
 console.log(abc.length);
+abc.length=50
+console.log(abc.length);
