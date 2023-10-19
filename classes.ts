@@ -13,3 +13,4 @@ class mylife{
 const a=new mylife()
 // a.check("firstName")
 console.log(a.check("firstName"));
+
