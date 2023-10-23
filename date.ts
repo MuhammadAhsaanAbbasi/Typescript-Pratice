@@ -8,3 +8,6 @@ futureDate.setSeconds(0); // Set the seconds to 0.
 
 console.log(futureDate);
 
+const index: number = String(new Date()).lastIndexOf(':') + 0;
+const date: string = String(new Date()).slice(0, index);
+console.log(date)
