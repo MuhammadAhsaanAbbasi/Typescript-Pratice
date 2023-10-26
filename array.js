@@ -1213,6 +1213,7 @@ function CreatDate(monthorStampTime, day, year) {
 // console.log(CreatDate(12,23,2024));
 let value = CreatDate(10, 17, 2023);
 console.log(value);
+export {};
 // type StaffAccount=[number,string,string,string?]
 // const staff:StaffAccount[]=[
 //     [0,"Hijabie","hijabie@gmail.com"],
@@ -1250,10 +1251,3 @@ console.log(value);
 // declare function calculatePayForEmployee(id: number, ...args: [...number[]]): number;
 // calculatePayForEmployee(staff[0][0], ...payStubs[0].slice(1));
 // calculatePayForEmployee(staff[1][0], ...payStubs[1].slice(1, 3));
-let array6 = ["Hijabie", "Abbasi", "Dummy"];
-let todo;
-todo = array6;
-todo = array6.slice(0, 2);
-let todo2 = todo.pop();
-console.log(todo2);
-export {};

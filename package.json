@@ -1,13 +1,17 @@
 {
   "name": "pratice",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repo contain all the answer of Type-script Qustion and Queries Pratice.",
   "main": "index.js",
-  "type":"module",
-    "scripts": {
+  "type": "module",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.9"
+  },
+  "devDependencies": {}
 }
